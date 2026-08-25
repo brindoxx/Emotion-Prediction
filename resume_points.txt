@@ -1,5 +1,0 @@
-• Engineered a robust Natural Language Processing (NLP) pipeline for text sentiment analysis, incorporating tokenization, sequence padding, and regex-based text standardization to prepare user input for model inference.
-• Deployed a Bidirectional Gated Recurrent Unit (BiGRU) deep learning model using TensorFlow/Keras, achieving multi-class classification across 6 distinct emotion categories (joy, sadness, anger, fear, love, surprise).
-• Architected a high-performance RESTful API with FastAPI and Uvicorn, implementing asynchronous lifespan events for efficient, one-time model and tokenizer loading to optimize memory usage and response latency.
-• Enforced strict data validation and type safety using Pydantic models for both request handling (input schemas) and response generation (confidence scores and probability distributions).
-• Integrated a frontend web interface with the backend API, utilizing static file serving and configuring Cross-Origin Resource Sharing (CORS) middleware to ensure seamless full-stack communication.
